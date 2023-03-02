@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>filterWords</title>
+</head>
+<body>
+    <p><u>consigne :</u> de mémoire on avait dans un tableau "words" contenant une liste de mots et une variable "letters" contenant une liste de caractères, la problématique était de de renvoyer un tableau filtré contenant uniquement les mots qui contenaient au moins un des caractères de la liste de letters</p>
+    <p><u>rappel :</u> pas d'aide d'un autre dev ou de c/c de stackoverflow mais possibilité d'utiliser un éditeur de code ou internet</p>
+    <p>
+        <u>méthodologie succinte :</u> une page HTML simple, un dossier "js" et un fichier"script.js" ont été créés,<br/>
+        le fichier .js contenait les lignes (1 2 5 22 23 25) sauf ligne 22 qui contenant "return false;"
+    </p>
+    <p>(résultat dans la console)</p>
+    <p>temps pour trouver la solution : <b>29min16sec</b>, dont environ 10mins on été consacrées à comprendre le message d'erreur suivant : <br/>
+        Uncaught TypeError: words[i] is undefined <br/>
+        solution : sur le fichier .js ligne 13 dans la boucle imbriquée j'ai mis "i++" i/o "j++" :/
+    </p>
+    <p>
+        autre solution envisagée mais nécessitant un peu plus de temps à appréhender (fonction REGEX) : <br/>
+        https://www.webtips.dev/webtips/javascript/string-contains-multiple-values-in-javascript
+    </p>
+    <p>autre piste non retenue le fonction js array.some()</p>
+    <script src="js/script.js"></script>
+</body>
+</html>
